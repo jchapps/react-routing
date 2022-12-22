@@ -2,7 +2,7 @@ import { NavLink } from 'react-router-dom';
 
 import classes from './MainHeader.module.css';
 
-
+// new syntax for navLink active - activeClassName no longer exists
 const classNameFunc = ({ isActive }) => (isActive ? classes.nav_active : "");
 
 

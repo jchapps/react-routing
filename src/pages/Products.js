@@ -2,9 +2,14 @@ import React from 'react';
 
 function Products(props) {
   return (
-    <div>
-      Products page
-    </div>
+    <section>
+      <h1>Products</h1>
+        <ul>
+          <li>car</li>
+          <li>lamp</li>
+          <li>strobe light</li>
+        </ul>
+    </section>
   );
 }
 
