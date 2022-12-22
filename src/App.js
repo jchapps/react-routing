@@ -5,6 +5,7 @@ import MainHeader from "./components/MainHeader";
 import ProductDetail from "./pages/ProductDetail";
 
 //element is the new syntax
+// don't need to use switch
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
         <Routes>
           <Route path="/welcome" element={<Welcome />} />
           <Route path="/products" element={<Products />} />
-          <Route path="/product-detail/:productId" element={<ProductDetail />} />
+          <Route path="/products/:productId" element={<ProductDetail />} />
         </Routes>
       </main>
     </div>
